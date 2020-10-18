@@ -25,8 +25,6 @@ class EmailBot:
         if self.bot_identifier in line:
           tokens = line.split("\t")
           tokens = [token.rstrip() for token in tokens]
-          print(tokens)
-          print(tokens[1:])
           return tokens[1:]
 
   def email_me(self, subject="Task Complete", message="Task Complete"):
