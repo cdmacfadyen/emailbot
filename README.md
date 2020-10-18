@@ -5,9 +5,9 @@ this mainly to let me know when deep
 learning models have finished training. 
 
 ## Install
-EmailBot is on pip, just run
+SimpleEmailBot is on pip, just run
 ```
-pip install emailbot
+pip install simpleemailbot
 ```
 ## Usage
 
