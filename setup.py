@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="SimpleEmailBot",
-    version="0.0.0",
+    version="0.0.1",
     author="Craig Macfadyen",
     author_email="cdmacfadyen@gmail.com",
     description="Simple package to email you when scripts are finished.",
