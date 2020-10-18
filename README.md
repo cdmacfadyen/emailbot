@@ -27,6 +27,8 @@ e.g.
 ```bot    mybot@gmail.com password123```
 
 **Make sure you use tabs and not spaces**.
+Also you should run `chmod 600 ~/.emailbot`. This 
+makes sure only you have read and write permissions.
 You can change where the secrets are 
 kept with `EmailBot.set_secrets_path()`
 ### Code
