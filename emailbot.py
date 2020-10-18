@@ -23,9 +23,6 @@ class EmailBot:
           print(tokens)
           print(tokens[1:])
           return tokens[1:]
-  
-
-      
 
   def email_me(self, message="Task Complete", subject="Task Complete"):
       port = 465
