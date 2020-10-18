@@ -1,5 +1,5 @@
-# EmailBot
-EmailBot is a very simple Python package to 
+# SimpleEmailBot
+SimpleEmailBot is a very simple Python package to 
 send an email when a script is completed. I use 
 this mainly to let me know when deep 
 learning models have finished training. 
@@ -35,7 +35,7 @@ kept with `EmailBot.set_secrets_path()`
 No more setup to do now, here is an example usage.
 
 ```python
-from emailbot import EmailBot
+from simpleemailbot import EmailBot
 # bot is the identifier in the secrets file
 # don't put anything that identifies the email or password in your code
 bot = EmailBot("myemail@gmail.com", "bot")
